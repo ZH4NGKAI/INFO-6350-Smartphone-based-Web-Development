@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0426FD92242033E000EB097B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FD91242033E000EB097B /* AppDelegate.swift */; };
+		0426FD9B242033E100EB097B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0426FD9A242033E100EB097B /* Assets.xcassets */; };
+		0426FD9E242033E100EB097B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426FD9C242033E100EB097B /* LaunchScreen.storyboard */; };
+		0426FDAC242036FD00EB097B /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0426FDAB242036FD00EB097B /* Main.xib */; };
+		0426FDAF24204F6500EB097B /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FDAE24204F6500EB097B /* Stop.swift */; };
+		0426FDB12420529F00EB097B /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FDB02420529F00EB097B /* Schedule.swift */; };
+		0426FDB32420535C00EB097B /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FDB22420535C00EB097B /* Train.swift */; };
+		0426FDB52420549C00EB097B /* TrainList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FDB42420549C00EB097B /* TrainList.swift */; };
+		04D58ABE242137EC009362E5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58ABD242137EC009362E5 /* CustomButton.swift */; };
+		04D58AC82421570B009362E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AC72421570B009362E5 /* ViewController.swift */; };
+		04D58ACA24215ADA009362E5 /* ManageTrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AC924215ADA009362E5 /* ManageTrainController.swift */; };
+		04D58ACC24215B11009362E5 /* CreateTrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58ACB24215B11009362E5 /* CreateTrainController.swift */; };
+		04D58ACE24215B22009362E5 /* DeleteTrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58ACD24215B22009362E5 /* DeleteTrainController.swift */; };
+		04D58AD024215B69009362E5 /* UpdateTrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58ACF24215B69009362E5 /* UpdateTrainController.swift */; };
+		04D58AD224215B81009362E5 /* ManageScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AD124215B81009362E5 /* ManageScheduleController.swift */; };
+		04D58AD424215B92009362E5 /* CreateScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AD324215B92009362E5 /* CreateScheduleController.swift */; };
+		04D58AD724215BA5009362E5 /* DeleteScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AD524215BA5009362E5 /* DeleteScheduleController.swift */; };
+		04D58AD824215BA5009362E5 /* DeleteScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AD624215BA5009362E5 /* DeleteScheduleView.xib */; };
+		04D58ADB24215C48009362E5 /* UpdateScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AD924215C48009362E5 /* UpdateScheduleController.swift */; };
+		04D58ADC24215C48009362E5 /* UpdateScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58ADA24215C48009362E5 /* UpdateScheduleView.xib */; };
+		04D58ADF24215D13009362E5 /* ManageStopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58ADD24215D13009362E5 /* ManageStopController.swift */; };
+		04D58AE024215D13009362E5 /* ManageStopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58ADE24215D13009362E5 /* ManageStopView.xib */; };
+		04D58AE324215D23009362E5 /* CreateStopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AE124215D23009362E5 /* CreateStopController.swift */; };
+		04D58AE424215D23009362E5 /* CreateStopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AE224215D23009362E5 /* CreateStopView.xib */; };
+		04D58AE724215D35009362E5 /* DeleteStopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AE524215D35009362E5 /* DeleteStopController.swift */; };
+		04D58AE824215D35009362E5 /* DeleteStopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AE624215D35009362E5 /* DeleteStopView.xib */; };
+		04D58AEB24215D47009362E5 /* UpdateStopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AE924215D47009362E5 /* UpdateStopController.swift */; };
+		04D58AEC24215D47009362E5 /* UpdateStopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AEA24215D47009362E5 /* UpdateStopView.xib */; };
+		04D58AEE24215D8C009362E5 /* ManageScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AED24215D8C009362E5 /* ManageScheduleView.xib */; };
+		04D58AF02421620A009362E5 /* CreateScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AEF2421620A009362E5 /* CreateScheduleView.xib */; };
+		04D58AF224216232009362E5 /* ManageTrainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AF124216232009362E5 /* ManageTrainView.xib */; };
+		04D58AF424216242009362E5 /* CreateTrainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AF324216242009362E5 /* CreateTrainView.xib */; };
+		04D58AF624216250009362E5 /* DeleteTrainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AF524216250009362E5 /* DeleteTrainView.xib */; };
+		04D58AF824216261009362E5 /* UpdateTrainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AF724216261009362E5 /* UpdateTrainView.xib */; };
+		04D58AFC24216328009362E5 /* DisplayTrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AFA24216328009362E5 /* DisplayTrainController.swift */; };
+		04D58AFD24216328009362E5 /* DisplayTrainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AFB24216328009362E5 /* DisplayTrainView.xib */; };
+		04D58B0024216337009362E5 /* SearchTrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58AFE24216337009362E5 /* SearchTrainController.swift */; };
+		04D58B0124216337009362E5 /* SearchTrainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58AFF24216337009362E5 /* SearchTrainView.xib */; };
+		04D58B0424216351009362E5 /* SearchScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58B0224216351009362E5 /* SearchScheduleController.swift */; };
+		04D58B0524216351009362E5 /* SearchScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58B0324216351009362E5 /* SearchScheduleView.xib */; };
+		04D58B082421635F009362E5 /* SearchStopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58B062421635F009362E5 /* SearchStopController.swift */; };
+		04D58B092421635F009362E5 /* SearchStopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58B072421635F009362E5 /* SearchStopView.xib */; };
+		04D58B0D24216F6E009362E5 /* ManageDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58B0B24216F6E009362E5 /* ManageDisplayController.swift */; };
+		04D58B0E24216F6E009362E5 /* ManageDisplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D58B0C24216F6E009362E5 /* ManageDisplayView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0426FD8E242033E000EB097B /* Assignment_6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment_6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0426FD91242033E000EB097B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0426FD9A242033E100EB097B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0426FD9D242033E100EB097B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0426FD9F242033E100EB097B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0426FDAB242036FD00EB097B /* Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		0426FDAE24204F6500EB097B /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		0426FDB02420529F00EB097B /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		0426FDB22420535C00EB097B /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		0426FDB42420549C00EB097B /* TrainList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainList.swift; sourceTree = "<group>"; };
+		04D58ABD242137EC009362E5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		04D58AC72421570B009362E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D58AC924215ADA009362E5 /* ManageTrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTrainController.swift; sourceTree = "<group>"; };
+		04D58ACB24215B11009362E5 /* CreateTrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTrainController.swift; sourceTree = "<group>"; };
+		04D58ACD24215B22009362E5 /* DeleteTrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTrainController.swift; sourceTree = "<group>"; };
+		04D58ACF24215B69009362E5 /* UpdateTrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTrainController.swift; sourceTree = "<group>"; };
+		04D58AD124215B81009362E5 /* ManageScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageScheduleController.swift; sourceTree = "<group>"; };
+		04D58AD324215B92009362E5 /* CreateScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScheduleController.swift; sourceTree = "<group>"; };
+		04D58AD524215BA5009362E5 /* DeleteScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteScheduleController.swift; sourceTree = "<group>"; };
+		04D58AD624215BA5009362E5 /* DeleteScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteScheduleView.xib; sourceTree = "<group>"; };
+		04D58AD924215C48009362E5 /* UpdateScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScheduleController.swift; sourceTree = "<group>"; };
+		04D58ADA24215C48009362E5 /* UpdateScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateScheduleView.xib; sourceTree = "<group>"; };
+		04D58ADD24215D13009362E5 /* ManageStopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageStopController.swift; sourceTree = "<group>"; };
+		04D58ADE24215D13009362E5 /* ManageStopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageStopView.xib; sourceTree = "<group>"; };
+		04D58AE124215D23009362E5 /* CreateStopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStopController.swift; sourceTree = "<group>"; };
+		04D58AE224215D23009362E5 /* CreateStopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateStopView.xib; sourceTree = "<group>"; };
+		04D58AE524215D35009362E5 /* DeleteStopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteStopController.swift; sourceTree = "<group>"; };
+		04D58AE624215D35009362E5 /* DeleteStopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteStopView.xib; sourceTree = "<group>"; };
+		04D58AE924215D47009362E5 /* UpdateStopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStopController.swift; sourceTree = "<group>"; };
+		04D58AEA24215D47009362E5 /* UpdateStopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateStopView.xib; sourceTree = "<group>"; };
+		04D58AED24215D8C009362E5 /* ManageScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageScheduleView.xib; sourceTree = "<group>"; };
+		04D58AEF2421620A009362E5 /* CreateScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateScheduleView.xib; sourceTree = "<group>"; };
+		04D58AF124216232009362E5 /* ManageTrainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageTrainView.xib; sourceTree = "<group>"; };
+		04D58AF324216242009362E5 /* CreateTrainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateTrainView.xib; sourceTree = "<group>"; };
+		04D58AF524216250009362E5 /* DeleteTrainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteTrainView.xib; sourceTree = "<group>"; };
+		04D58AF724216261009362E5 /* UpdateTrainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateTrainView.xib; sourceTree = "<group>"; };
+		04D58AFA24216328009362E5 /* DisplayTrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTrainController.swift; sourceTree = "<group>"; };
+		04D58AFB24216328009362E5 /* DisplayTrainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayTrainView.xib; sourceTree = "<group>"; };
+		04D58AFE24216337009362E5 /* SearchTrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTrainController.swift; sourceTree = "<group>"; };
+		04D58AFF24216337009362E5 /* SearchTrainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTrainView.xib; sourceTree = "<group>"; };
+		04D58B0224216351009362E5 /* SearchScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScheduleController.swift; sourceTree = "<group>"; };
+		04D58B0324216351009362E5 /* SearchScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchScheduleView.xib; sourceTree = "<group>"; };
+		04D58B062421635F009362E5 /* SearchStopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStopController.swift; sourceTree = "<group>"; };
+		04D58B072421635F009362E5 /* SearchStopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchStopView.xib; sourceTree = "<group>"; };
+		04D58B0B24216F6E009362E5 /* ManageDisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageDisplayController.swift; sourceTree = "<group>"; };
+		04D58B0C24216F6E009362E5 /* ManageDisplayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageDisplayView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0426FD8B242033E000EB097B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0426FD85242033E000EB097B = {
+			isa = PBXGroup;
+			children = (
+				0426FD90242033E000EB097B /* Assignment_6 */,
+				0426FD8F242033E000EB097B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0426FD8F242033E000EB097B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0426FD8E242033E000EB097B /* Assignment_6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0426FD90242033E000EB097B /* Assignment_6 */ = {
+			isa = PBXGroup;
+			children = (
+				04D58AC0242138B7009362E5 /* Controller */,
+				04D58ABF242138A9009362E5 /* View */,
+				0426FDAD24204F2F00EB097B /* Model */,
+				0426FD91242033E000EB097B /* AppDelegate.swift */,
+				0426FD9A242033E100EB097B /* Assets.xcassets */,
+				0426FD9C242033E100EB097B /* LaunchScreen.storyboard */,
+				0426FD9F242033E100EB097B /* Info.plist */,
+			);
+			path = Assignment_6;
+			sourceTree = "<group>";
+		};
+		0426FDAD24204F2F00EB097B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04D58ABD242137EC009362E5 /* CustomButton.swift */,
+				0426FDAE24204F6500EB097B /* Stop.swift */,
+				0426FDB02420529F00EB097B /* Schedule.swift */,
+				0426FDB22420535C00EB097B /* Train.swift */,
+				0426FDB42420549C00EB097B /* TrainList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04D58ABF242138A9009362E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0426FDAB242036FD00EB097B /* Main.xib */,
+				04D58B0A242163A2009362E5 /* DisplayView */,
+				04D58AC62421393F009362E5 /* TrainView */,
+				04D58AC524213936009362E5 /* ScheduleView */,
+				04D58AC42421392D009362E5 /* StopView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D58AC0242138B7009362E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04D58AC72421570B009362E5 /* ViewController.swift */,
+				04D58AF9242162DA009362E5 /* DisplayController */,
+				04D58AC32421391E009362E5 /* StopController */,
+				04D58AC224213916009362E5 /* ScheduleController */,
+				04D58AC124213907009362E5 /* TrainController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04D58AC124213907009362E5 /* TrainController */ = {
+			isa = PBXGroup;
+			children = (
+				04D58AC924215ADA009362E5 /* ManageTrainController.swift */,
+				04D58ACB24215B11009362E5 /* CreateTrainController.swift */,
+				04D58ACD24215B22009362E5 /* DeleteTrainController.swift */,
+				04D58ACF24215B69009362E5 /* UpdateTrainController.swift */,
+			);
+			path = TrainController;
+			sourceTree = "<group>";
+		};
+		04D58AC224213916009362E5 /* ScheduleController */ = {
+			isa = PBXGroup;
+			children = (
+				04D58AD124215B81009362E5 /* ManageScheduleController.swift */,
+				04D58AD324215B92009362E5 /* CreateScheduleController.swift */,
+				04D58AD524215BA5009362E5 /* DeleteScheduleController.swift */,
+				04D58AD924215C48009362E5 /* UpdateScheduleController.swift */,
+			);
+			path = ScheduleController;
+			sourceTree = "<group>";
+		};
+		04D58AC32421391E009362E5 /* StopController */ = {
+			isa = PBXGroup;
+			children = (
+				04D58ADD24215D13009362E5 /* ManageStopController.swift */,
+				04D58AE124215D23009362E5 /* CreateStopController.swift */,
+				04D58AE524215D35009362E5 /* DeleteStopController.swift */,
+				04D58AE924215D47009362E5 /* UpdateStopController.swift */,
+			);
+			path = StopController;
+			sourceTree = "<group>";
+		};
+		04D58AC42421392D009362E5 /* StopView */ = {
+			isa = PBXGroup;
+			children = (
+				04D58ADE24215D13009362E5 /* ManageStopView.xib */,
+				04D58AE224215D23009362E5 /* CreateStopView.xib */,
+				04D58AE624215D35009362E5 /* DeleteStopView.xib */,
+				04D58AEA24215D47009362E5 /* UpdateStopView.xib */,
+			);
+			path = StopView;
+			sourceTree = "<group>";
+		};
+		04D58AC524213936009362E5 /* ScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				04D58ADA24215C48009362E5 /* UpdateScheduleView.xib */,
+				04D58AD624215BA5009362E5 /* DeleteScheduleView.xib */,
+				04D58AED24215D8C009362E5 /* ManageScheduleView.xib */,
+				04D58AEF2421620A009362E5 /* CreateScheduleView.xib */,
+			);
+			path = ScheduleView;
+			sourceTree = "<group>";
+		};
+		04D58AC62421393F009362E5 /* TrainView */ = {
+			isa = PBXGroup;
+			children = (
+				04D58AF124216232009362E5 /* ManageTrainView.xib */,
+				04D58AF324216242009362E5 /* CreateTrainView.xib */,
+				04D58AF524216250009362E5 /* DeleteTrainView.xib */,
+				04D58AF724216261009362E5 /* UpdateTrainView.xib */,
+			);
+			path = TrainView;
+			sourceTree = "<group>";
+		};
+		04D58AF9242162DA009362E5 /* DisplayController */ = {
+			isa = PBXGroup;
+			children = (
+				04D58AFA24216328009362E5 /* DisplayTrainController.swift */,
+				04D58AFE24216337009362E5 /* SearchTrainController.swift */,
+				04D58B0224216351009362E5 /* SearchScheduleController.swift */,
+				04D58B062421635F009362E5 /* SearchStopController.swift */,
+				04D58B0B24216F6E009362E5 /* ManageDisplayController.swift */,
+			);
+			path = DisplayController;
+			sourceTree = "<group>";
+		};
+		04D58B0A242163A2009362E5 /* DisplayView */ = {
+			isa = PBXGroup;
+			children = (
+				04D58B0C24216F6E009362E5 /* ManageDisplayView.xib */,
+				04D58AFB24216328009362E5 /* DisplayTrainView.xib */,
+				04D58AFF24216337009362E5 /* SearchTrainView.xib */,
+				04D58B0324216351009362E5 /* SearchScheduleView.xib */,
+				04D58B072421635F009362E5 /* SearchStopView.xib */,
+			);
+			path = DisplayView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0426FD8D242033E000EB097B /* Assignment_6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0426FDA2242033E100EB097B /* Build configuration list for PBXNativeTarget "Assignment_6" */;
+			buildPhases = (
+				0426FD8A242033E000EB097B /* Sources */,
+				0426FD8B242033E000EB097B /* Frameworks */,
+				0426FD8C242033E000EB097B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment_6;
+			productName = Assignment_6;
+			productReference = 0426FD8E242033E000EB097B /* Assignment_6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0426FD86242033E000EB097B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kai Zhang";
+				TargetAttributes = {
+					0426FD8D242033E000EB097B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0426FD89242033E000EB097B /* Build configuration list for PBXProject "Assignment_6" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0426FD85242033E000EB097B;
+			productRefGroup = 0426FD8F242033E000EB097B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0426FD8D242033E000EB097B /* Assignment_6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0426FD8C242033E000EB097B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D58B092421635F009362E5 /* SearchStopView.xib in Resources */,
+				0426FD9E242033E100EB097B /* LaunchScreen.storyboard in Resources */,
+				04D58AF02421620A009362E5 /* CreateScheduleView.xib in Resources */,
+				04D58B0124216337009362E5 /* SearchTrainView.xib in Resources */,
+				04D58ADC24215C48009362E5 /* UpdateScheduleView.xib in Resources */,
+				04D58B0524216351009362E5 /* SearchScheduleView.xib in Resources */,
+				04D58AFD24216328009362E5 /* DisplayTrainView.xib in Resources */,
+				04D58AE024215D13009362E5 /* ManageStopView.xib in Resources */,
+				04D58AF424216242009362E5 /* CreateTrainView.xib in Resources */,
+				04D58AE424215D23009362E5 /* CreateStopView.xib in Resources */,
+				04D58AD824215BA5009362E5 /* DeleteScheduleView.xib in Resources */,
+				04D58AF824216261009362E5 /* UpdateTrainView.xib in Resources */,
+				04D58AF224216232009362E5 /* ManageTrainView.xib in Resources */,
+				0426FDAC242036FD00EB097B /* Main.xib in Resources */,
+				04D58AEE24215D8C009362E5 /* ManageScheduleView.xib in Resources */,
+				04D58B0E24216F6E009362E5 /* ManageDisplayView.xib in Resources */,
+				04D58AE824215D35009362E5 /* DeleteStopView.xib in Resources */,
+				0426FD9B242033E100EB097B /* Assets.xcassets in Resources */,
+				04D58AF624216250009362E5 /* DeleteTrainView.xib in Resources */,
+				04D58AEC24215D47009362E5 /* UpdateStopView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0426FD8A242033E000EB097B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0426FDB52420549C00EB097B /* TrainList.swift in Sources */,
+				04D58ACA24215ADA009362E5 /* ManageTrainController.swift in Sources */,
+				04D58B0424216351009362E5 /* SearchScheduleController.swift in Sources */,
+				04D58ACC24215B11009362E5 /* CreateTrainController.swift in Sources */,
+				0426FD92242033E000EB097B /* AppDelegate.swift in Sources */,
+				04D58AD024215B69009362E5 /* UpdateTrainController.swift in Sources */,
+				04D58AD724215BA5009362E5 /* DeleteScheduleController.swift in Sources */,
+				04D58AE724215D35009362E5 /* DeleteStopController.swift in Sources */,
+				04D58ADB24215C48009362E5 /* UpdateScheduleController.swift in Sources */,
+				0426FDB12420529F00EB097B /* Schedule.swift in Sources */,
+				04D58B082421635F009362E5 /* SearchStopController.swift in Sources */,
+				04D58AEB24215D47009362E5 /* UpdateStopController.swift in Sources */,
+				04D58ADF24215D13009362E5 /* ManageStopController.swift in Sources */,
+				04D58ACE24215B22009362E5 /* DeleteTrainController.swift in Sources */,
+				04D58B0024216337009362E5 /* SearchTrainController.swift in Sources */,
+				04D58ABE242137EC009362E5 /* CustomButton.swift in Sources */,
+				04D58AC82421570B009362E5 /* ViewController.swift in Sources */,
+				0426FDB32420535C00EB097B /* Train.swift in Sources */,
+				0426FDAF24204F6500EB097B /* Stop.swift in Sources */,
+				04D58B0D24216F6E009362E5 /* ManageDisplayController.swift in Sources */,
+				04D58AD224215B81009362E5 /* ManageScheduleController.swift in Sources */,
+				04D58AD424215B92009362E5 /* CreateScheduleController.swift in Sources */,
+				04D58AE324215D23009362E5 /* CreateStopController.swift in Sources */,
+				04D58AFC24216328009362E5 /* DisplayTrainController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0426FD9C242033E100EB097B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0426FD9D242033E100EB097B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0426FDA0242033E100EB097B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0426FDA1242033E100EB097B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0426FDA3242033E100EB097B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG7U7Z38G3;
+				INFOPLIST_FILE = Assignment_6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NEU.Assignment-6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0426FDA4242033E100EB097B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG7U7Z38G3;
+				INFOPLIST_FILE = Assignment_6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NEU.Assignment-6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0426FD89242033E000EB097B /* Build configuration list for PBXProject "Assignment_6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0426FDA0242033E100EB097B /* Debug */,
+				0426FDA1242033E100EB097B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0426FDA2242033E100EB097B /* Build configuration list for PBXNativeTarget "Assignment_6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0426FDA3242033E100EB097B /* Debug */,
+				0426FDA4242033E100EB097B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0426FD86242033E000EB097B /* Project object */;
+}
