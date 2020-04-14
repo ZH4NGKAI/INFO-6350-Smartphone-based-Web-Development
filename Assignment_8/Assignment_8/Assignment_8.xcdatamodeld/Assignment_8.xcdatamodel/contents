@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Schedule" representedClassName="Schedule" syncable="YES" codeGenerationType="class">
+        <attribute name="arrival" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="departure" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="stops" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Stop"/>
+        <relationship name="train" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Train" inverseName="schedules" inverseEntity="Train"/>
+    </entity>
+    <entity name="Stop" representedClassName="Stop" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Train" representedClassName="Train" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="line" optional="YES" attributeType="String"/>
+        <relationship name="destination" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Stop"/>
+        <relationship name="schedules" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Schedule" inverseName="train" inverseEntity="Schedule"/>
+        <relationship name="source" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Stop"/>
+    </entity>
+    <elements>
+        <element name="Train" positionX="453.85546875" positionY="281.33984375" width="128" height="118"/>
+        <element name="Schedule" positionX="206.51171875" positionY="216.9296875" width="128" height="118"/>
+        <element name="Stop" positionX="-14.19921875" positionY="266.18359375" width="128" height="103"/>
+    </elements>
+</model>
